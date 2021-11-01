@@ -12,6 +12,7 @@
         android:layout_height="60dp"
         android:onClick="goToMainActivity"
         android:text="Volver"
+        android:visibility="gone"
         tools:layout_editor_absoluteX="111dp"
         tools:layout_editor_absoluteY="632dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
