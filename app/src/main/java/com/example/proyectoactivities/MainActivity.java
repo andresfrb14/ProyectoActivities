@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     public void goToSecondActivity2(View view){
         Intent newIntent= new Intent(this,SecondActivity2.class);
         newIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        newIntent.putExtra("msg", "Hola");
+        newIntent.putExtra("msg", "Hola MINTIC");
         newIntent.putExtra("year", 2021);
         startActivity(newIntent);
     }
